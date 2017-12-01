@@ -1,0 +1,126 @@
+section .content{
+    width: 900px;
+    margin: 0 auto;
+    height: 1200px;
+    position: relative;
+    /*border: 1px solid red;*/
+}
+section .content .f{
+    text-align: center;
+    color: #a0a0a0;
+    margin-top: 40px;
+}
+section .content .icon ul{
+    margin-top: 60px;
+}
+section .content .icon ul li{
+    width: 160px;
+    height: 76px;
+    float: left;
+    border: 1px solid lightgrey;
+    margin-right: 18px;
+    margin-top: 40px;
+}
+section .content .icon ul .l1{
+    background: url("../img/iconlist_4.png") no-repeat 0 0;
+}
+section .content .icon ul .l2{
+    background: url("../img/iconlist_4.png") no-repeat -172px 0;
+}
+section .content .icon ul .l3{
+    background: url("../img/iconlist_4.png") no-repeat 0 -76px;
+}
+section .content .icon ul .l4{
+    background: url("../img/iconlist_4.png") no-repeat -172px -76px;
+}
+section .content .icon ul .l5{
+    background: url("../img/iconlist_4.png") no-repeat 0 -152px;
+}
+section .content .icon ul .l6{
+    background: url("../img/iconlist_4.png") no-repeat -172px -152px;
+}
+section .content .icon ul .l7{
+    background: url("../img/iconlist_4.png") no-repeat 0 -232px;
+}
+section .content .icon ul .l8{
+    background: url("../img/iconlist_4.png") no-repeat 0 -308px;
+}
+section .content .icon ul .l9{
+    background: url("../img/iconlist_4.png") no-repeat -172px -308px;
+}
+section .content .icon ul .l0{
+    background: url("../img/iconlist_4.png") no-repeat -173px -231px;
+}
+
+section .content h2{
+    position: absolute;
+    top:386px;
+    left: -20px;
+}
+
+section .content .m1 ul{
+    width: 940px;
+    height:285px;
+    position: absolute;
+    top:430px ;
+    border: 1px solid #a8a8a8;
+    left: -20px;
+}
+section .content .m1 ul li{
+    margin-right: 0px;
+    width: 470px;
+    height: 55px;
+    float: left;
+    line-height: 55px;
+    color: #a8a8a8;
+    text-indent:2em;
+    border-bottom: 1px solid #a8a8a8;
+}
+section .content .m1 ul .tl{
+    background:#a8a8a8 ;
+    color: white;
+
+}
+section .content .m1 ul .ml1{
+    border-style: none;
+}
+
+section .content .th2{
+    position: absolute;
+    top:753px;
+}
+section .content .m2 ul{
+    width: 940px;
+    height:285px;
+    position: absolute;
+    top:806px ;
+    border: 1px solid #a8a8a8;
+    left: -20px;
+}
+section .content .m2 ul li{
+    margin-right: 0px;
+    width: 470px;
+    height: 55px;
+    float: left;
+    line-height: 55px;
+    color: #a8a8a8;
+    text-indent:2em;
+    border-bottom: 1px solid #a8a8a8;
+}
+section .content .m2 ul .ml2{
+    background:#a8a8a8 ;
+    color: white;
+
+}
+section .content .m2 ul .ml3{
+    border-style: none;
+}
+
+
+
+
+section .content .m{
+    text-align: center;
+    color: #a0a0a0;
+    margin-top: 1120px;
+}

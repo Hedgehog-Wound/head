@@ -1,0 +1,119 @@
+@keyframes move01 {
+    from{
+        transform: translate(-543px);
+    }
+    to{transform: translate(0px);}
+}
+@keyframes move02 {
+    from{
+        transform: translate(-697px);
+    }
+    to{transform: translate(0px);}
+}
+@keyframes move03 {
+    from{
+        transform: translate(-850px);
+    }
+    to{transform: translate(0px);}
+}
+@keyframes move04 {
+    from{
+        transform: translate(-1005px);
+    }
+    to{transform: translate(0px);}
+}
+@keyframes move05 {
+    from{
+        transform: translate(-1159px);
+    }
+    to{transform: translate(0px);}
+}
+@keyframes ravovle {
+    from{
+        transform: rotate(0deg);
+    }
+    to{transform: rotate(1080deg);}
+}
+#intro_1{
+    animation: move01  2.95s linear ;
+}
+#intro_2{
+    animation: move02  3.79s linear ;
+}
+#intro_3{
+    animation: move03  4.60s linear ;
+}
+#intro_4{
+    animation: move04  5.43s linear ;
+}
+#intro_5{
+    animation: move05  6.25s linear ;
+}#intro_5 i{
+     animation: ravovle  6.25s linear ;
+ }
+ /******************dingwei****************/
+
+/***************hujiao*********/
+#hujiao b:hover{
+    animation: change 3s linear;
+}
+
+@keyframes change {
+    from{
+        transform: rotatey(0deg);
+    }
+
+    50%{
+        transform: rotatey(-90deg);}
+
+
+    to{
+        transform: rotatey(0deg);
+
+    }
+}
+/***************dingwei****************/
+#dingwei b:hover{
+    animation: change 3s linear;
+}
+
+@keyframes change {
+    from{
+        transform: rotatey(0deg);
+    }
+
+    50%{
+        transform: rotatey(-90deg);}
+
+
+    to{
+        transform: rotatey(0deg);
+
+    }
+}
+/**************icon******************/
+#icon ul li i:hover{
+    animation: jump 0.3s linear;
+}
+@keyframes jump {
+    from{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    25%{
+        transform: rotate(10deg);
+        opacity: 0.5;
+    }
+    50%{
+        transform: rotate(-10deg);
+        opacity: 1;
+    }
+    70%{
+        transform: rotate(10deg);
+        opacity: 0.5;
+    }
+    to{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+}
